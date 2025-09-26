@@ -1,0 +1,43 @@
+Started by GitHub push by ManjunathJ-dev
+Running as SYSTEM
+Building remotely on [8mha:////4HNRt43xqgwSr/rEVKMoejtT9Fu19zvFkJV5L0niflQIAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eKcxLJUQ30AXbxxvsYAAAA=[0mslave1 (linux) in workspace /home/ubuntu/workspace/c-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ubuntu/workspace/c-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ManjunathJ-dev/c-project.git # timeout=10
+Fetching upstream changes from https://github.com/ManjunathJ-dev/c-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/ManjunathJ-dev/c-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 986741cf28133ed89e34991fd7f1dd963d2b3665 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 986741cf28133ed89e34991fd7f1dd963d2b3665 # timeout=10
+Commit message: "Update test2"
+ > git rev-list --no-walk c58fcbb8679bbcb1e77fd270ef838911c7182df2 # timeout=10
+[c-project] $ /bin/sh -xe /tmp/jenkins17421733699107059533.sh
++ cd /home/ubuntu/workspace/c-project
++ make
+gcc -c main.c
+main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | main()
+      | ^~~~
+main.c: In function ‘main’:
+main.c:4:3: warning: implicit declaration of function ‘biggest’ [-Wimplicit-function-declaration]
+    4 |   biggest();
+      |   ^~~~~~~
+main.c:5:3: warning: implicit declaration of function ‘factorial’ [-Wimplicit-function-declaration]
+    5 |   factorial();
+      |   ^~~~~~~~~
+main.c:6:3: warning: implicit declaration of function ‘reverse’ [-Wimplicit-function-declaration]
+    6 |   reverse();
+      |   ^~~~~~~
+gcc -c big3.c
+gcc -c fact.c
+gcc -c reverse.c
+reverse.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | reverse()
+      | ^~~~~~~
+gcc -o ABC.exe main.o big3.o fact.o reverse.o
+Finished: SUCCESS

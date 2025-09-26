@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Job Import Plugin
+Specification-Version: 0.0
+Implementation-Title: Job Import Plugin
+Implementation-Version: 122.v35289550f1e6
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: job-import-plugin
+Short-Name: job-import-plugin
+Long-Name: Job Import Plugin
+Url: https://github.com/jenkinsci/job-import-plugin
+Compatible-Since-Version: 3.0
+Plugin-Version: 122.v35289550f1e6
+Hudson-Version: 2.479.1
+Jenkins-Version: 2.479.1
+Plugin-Dependencies: commons-lang3-api:3.17.0-84.vb_b_938040b_078,apache
+ -httpcomponents-client-4-api:4.5.14-208.v438351942757,cloudbees-folder:
+ 6.975.v4161e479479f,credentials:1405.vb_cda_74a_f8974
+Plugin-Developers: Jesse Farinacci:jieryn:jieryn@gmail.com,Emilio Escoba
+ r:escoem:escoem@gmail.com
+Plugin-License-Name: The MIT license
+Plugin-License-Url: http://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/job-import-pl
+ ugin.git
+Plugin-ScmTag: 35289550f1e62f2c97ebea6ecf055b23bab35689
+Plugin-ScmUrl: https://github.com/jenkinsci/job-import-plugin
+Implementation-Build: 35289550f1e62f2c97ebea6ecf055b23bab35689
+

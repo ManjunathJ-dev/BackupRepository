@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='job-import-plugin' version='122.v35289550f1e6'><l:dependency name='Job Import Plugin' groupId='org.jenkins-ci.plugins' artifactId='job-import-plugin' version='122.v35289550f1e6' url='https://github.com/jenkinsci/job-import-plugin'><l:description>The Jenkins Plugins Parent POM Project</l:description><l:license name='The MIT license' url='http://opensource.org/licenses/MIT'/></l:dependency></l:dependencies>

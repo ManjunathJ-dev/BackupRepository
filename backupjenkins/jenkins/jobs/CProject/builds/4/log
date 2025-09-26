@@ -1,0 +1,33 @@
+Started by user [8mha:////4BeDqU55FIf2dbZYhoiDd/7oPW+R71uDRWJz9LhIElDWAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZe/dLi1CL9xJTczLzcLABWzWcfwgAAAA==[0mManjunathJ
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/CProject
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/CProject/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ManjunathJ-dev/c-project.git # timeout=10
+Fetching upstream changes from https://github.com/ManjunathJ-dev/c-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/ManjunathJ-dev/c-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision c58fcbb8679bbcb1e77fd270ef838911c7182df2 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c58fcbb8679bbcb1e77fd270ef838911c7182df2 # timeout=10
+Commit message: "Update test1"
+ > git rev-list --no-walk c58fcbb8679bbcb1e77fd270ef838911c7182df2 # timeout=10
+[CProject] $ /bin/sh -xe /tmp/jenkins15646536826423108343.sh
++ cd /var/lib/jenkins/workspace/CProject
++ make
+make: 'ABC.exe' is up to date.
++ ./ABC.exe 2 5 7
+
+Enter three different numbers: 
+0.00 is the largest number.0.00 is the largest number.0.00 is the largest number.
+Enter an integer: 
+
+Factorial of 0 = 1
+
+Enter string to reverse
+String Before Reverse: 
+String After Reverse: Finished: SUCCESS
